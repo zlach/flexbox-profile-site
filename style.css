@@ -1,0 +1,129 @@
+body{
+	padding: 0px;
+	margin: 0px;
+	font-family: 'Lato', sans-serif;
+}
+
+h1{
+	font-size: 1.5em;
+	font-weight: bold;
+	letter-spacing: 2px;
+	margin-bottom: 0px;
+}
+
+h2{
+	font-size: 1.2em;
+	font-weight: bold;
+	margin-top: 5px;
+}
+
+#navcontainer{
+	display: flex;
+	height: 5vw;
+	align-items: center;
+	font-size: 1.1em;
+	border-bottom: 1px solid #999;
+}
+
+#homelogo{
+	flex: 1;
+	margin-left: 1vw;
+}
+
+#homelink{
+	text-decoration: none;
+	color: black;
+	font-weight: 600;
+	font-size: 1.2em;
+}
+
+#indentrt{
+	margin-right: 1vw;
+}
+
+.navbox{
+	padding-left: 2vw;
+}
+
+.container{
+	display: flex;
+	height: 100%;
+}
+
+.image{
+	background-image:url('zachary-goldberg-graduation.jpg');
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position: center;
+	flex: 2;
+}
+
+#text{
+	flex: 1;
+}
+
+#textflex{
+	display: flex;
+	flex-direction: column;
+	padding: 4vw 4vw;
+}
+
+#mainbutton{
+	background-color: #305B90;
+	color: white;
+	border-radius: 5px;
+	text-align: center;
+	line-height: 48px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	text-decoration: none;
+}
+
+#mainbutton:hover{
+	background-color: #456B9B;
+	transition-duration: .5s;
+}
+
+.pee{
+	color: #999;
+	letter-spacing: 2px;
+	font-size: .8em;
+}
+
+#bottombar{
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	height: 5vw;
+	background-color: white;
+	opacity: .9;
+	line-height: 5vw;
+	font-size: 1.1em;
+}
+
+#flexfoot{
+	display: flex;
+}
+
+#bottombutton{
+	background-color: #0872b4;
+	color: white;
+	border-radius: 5px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	padding: 0px 1vw;
+	line-height: 3vw;
+}
+
+#bottombutton:hover{
+	background-color: #07639c;
+	transition-duration: .5s;
+}
+
+#bottomtext{
+	display: inline-block;
+	margin-right: 2vw;
+	margin-left: 1vw;
+}
